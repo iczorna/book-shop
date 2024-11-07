@@ -1,0 +1,19 @@
+.page {
+    background-color:$background-color3;
+    width: 1400px;
+    margin: auto;
+}
+
+.page__title{
+        font-family: Cabin;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: #1F1F1F;
+        padding-left: 52px;
+        padding-right: 52px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin: 0;
+}

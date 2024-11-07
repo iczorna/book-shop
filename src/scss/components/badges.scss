@@ -1,0 +1,18 @@
+.badge {
+    position: absolute;
+    height: 32px;
+    display: flex;
+    gap: 4px;
+}
+
+.hit {
+    @include badge($badge-color-hit);
+}
+
+.new {
+    @include badge($badge-color-new);
+}
+
+.discount {
+    @include badge($badge-color-disc);
+}

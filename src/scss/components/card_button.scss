@@ -1,0 +1,8 @@
+.bookadd{
+    @include basket-button($background-color4,$hover-color1)
+}
+
+.endup{
+    @include basket-button($background-color5,$hover-color2);
+        padding: 8px 94px;
+}

@@ -1,0 +1,11 @@
+.footer__block{
+    width: 1400px;
+    @include flex;
+    background-color:$background-color4;
+    margin: auto;
+    padding: 16px 52px;
+}
+
+.allright, .copyright{
+    @include major-font($txt-color-white)
+}

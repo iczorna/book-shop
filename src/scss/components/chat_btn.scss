@@ -1,0 +1,17 @@
+.chat {
+    background-image: url(../images/chat_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 64px;
+    height: 64px;
+    border: transparent;
+    background-color: #10BBD5;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 108px;
+    right: calc(100vw/2 - 1380px/2);
+
+    &:hover{
+        transform: rotate(12deg)
+    }
+}

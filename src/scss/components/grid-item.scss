@@ -1,0 +1,37 @@
+.card__image {
+    height: 280px;
+}
+
+.child__item{
+    padding: 32px;
+    background-color:$background-color2;
+    border: 1px solid #A8A8A8;
+}
+
+.child__item--link{
+    text-decoration: none;
+}
+
+
+.card__name{
+    font-family: Cabin;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #1F1F1F;
+    border-bottom: 1px solid#A8A8A8;
+    margin-bottom: 0;
+}
+
+.author{
+    @include major-font($txt-color-grey)
+}
+.card__price{
+    @include book-price($txt-color-red);
+}
+
+.card__price--old{
+    @include book-price($txt-color-grey);
+    margin-left: 24px;
+}

@@ -1,0 +1,61 @@
+@mixin major-font ($color){
+        font-family: Cabin;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: $color;
+}
+
+@mixin basket-button($background-color,$hover-color){
+        width: 242px;
+        height: 40px;
+        padding: 8px 74px;
+       
+       
+        border: transparent;
+        border-radius: 4px;
+        background-color:$background-color;
+    
+        @include major-font ($txt-color-white);
+
+        &:hover{
+                background-color: $hover-color;
+        }
+
+        }
+@mixin badge ($background-color){
+        border-radius: 5px;
+        margin: 0;
+        padding: 4px 8px;
+        background:$background-color;
+
+        @include major-font($txt-color-white)   
+}
+
+@mixin flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+@mixin border ($type:'all', $width:1px, $style: solid, $color:$line-color){
+        @if $type == 'all'{
+                border: $width,$style, $color;
+} @else if $type == 'top'{
+        border-top:$width,$style, $color; 
+} @else if $type == "bottom"{
+        border-bottom: $width,$style, $color; 
+}
+}
+
+@mixin book-price($color){
+        font-family: Cabin;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: left;
+        color:$color;
+        margin-top: 8px;
+        margin-bottom: 16px;
+}
