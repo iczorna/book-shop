@@ -5,14 +5,14 @@
     gap: 4px;
 }
 
-.hit {
+.badge--hit{
     @include badge($badge-color-hit);
 }
 
-.new {
+.badge--new{
     @include badge($badge-color-new);
 }
 
-.discount {
+.card__discount{
     @include badge($badge-color-disc);
 }

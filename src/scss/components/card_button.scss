@@ -1,8 +1,8 @@
-.bookadd{
+.btn--add{
     @include basket-button($background-color4,$hover-color1)
 }
 
-.endup{
+.btn--end{
     @include basket-button($background-color5,$hover-color2);
         padding: 8px 94px;
 }

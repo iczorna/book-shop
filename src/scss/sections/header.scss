@@ -6,19 +6,19 @@
     background-color: $background-color2;
 }
 
-.container {
+.head__container{
     width: 1400px;
     text-align: center;
     margin: auto;
 }
 
-.blue{
+.section--blue{
     @include flex;
     background-color:$background-color1;
     padding: 8px 52px;
 }
 
-.logo {
+.section__img{
     height: 28px;
 }
 
@@ -28,11 +28,11 @@
     align-items: center;
 }
 
-.zero__price{
+.cart__price{
     @include major-font($txt-color-white)
 }
 
-.zero {
+.cart__value{
     border: transparent;
     background-color: transparent;
     background-image: url(../images/cart.svg);
@@ -41,9 +41,11 @@
     width: 40px;
     position: relative;
 
+    cursor: pointer;
+
 }
 
-span {
+.cart__value>span {
     position: absolute;
     top: 30%;
     right: 30%;
@@ -54,21 +56,21 @@ span {
     color: #000000;
 }
 
-.white{
+.section--white{
     @include flex;
     margin: auto;
     padding: 4px 0;
 }
 
-.nm__list {
+.section__menu-list {
     list-style: none;
     display: flex;
     margin: 0;
     gap: 40px;
 }
 
-.shop__category,
-.nm__list--item {
+.section__category,
+.section__list-item{
     text-decoration: none;
     @include major-font($txt-color-black);
     margin: 0;
