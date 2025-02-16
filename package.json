@@ -14,6 +14,7 @@
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "cssnano": "^6.0.1",
+    "gh-pages": "^6.3.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean": "^0.4.0",
@@ -29,5 +30,5 @@
     "last 3 version"
   ],
   "type": "module",
-  "homepage": "https://github.com/iczorna/book-shop.git"
+  "homepage": "https://iczorna.github.io/book-shop/"
 }
