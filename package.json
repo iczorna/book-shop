@@ -30,5 +30,9 @@
     "last 3 version"
   ],
   "type": "module",
-  "homepage": "https://iczorna.github.io/book-shop/"
+  "homepage": "https://iczorna.github.io/book-shop/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iczorna/book-shop.git"
+  }
 }
